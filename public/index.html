@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styless.css">
+    <title>Savoy Travel</title>
+</head>
+<body>
+    <!--SECCION I N I C I O-->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                     <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#nosotros" onclick="seleccionar(this)">NOSOTROS</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#eventos" onclick="seleccionar(this)">EVENTOS</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>  
+
+                    <!-- iconos del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div> 
+
+                    <!-- ICONOS R E D E S  S O C I A L E S -->
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </header>   
+            <div class="presentacion">
+                <P class="bienvenida">Bienvenidos</P>
+                <h2><span>Savoy Travel</span>, Eventos Publicos y Privados</h2>
+                <p class="descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                <a href="#portafolio">Ir a Poratfolio</a>
+            </div>
+        </div>
+    </section>
+    <!--SECCION S O B R E  N O S T R O S -->
+    <section id="nosotros">
+         <div class="contenedor-foto">
+            <img src="/img/nosotros.jpeg" alt="">
+        </div>
+        <div class="nosotros">
+            <p class="titulo-seccion">NOSOTROS</p>
+            <h2>Hola, somos <span>Savoy Travel</span></h2>
+            <h3></h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur iure aliquam illo. Eos, distinctio perspiciatis
+            fugiat at molestias consequatur ipsum explicabo quam, esse exercitationem vel
+            error, minus iure quo! Quo!</p>
+            <p>at molestias consequatur ipsum explicabo quam, esse exercitationem</p>
+            <a href="#">Descarga Potafolio</a>
+        </div>
+    </section>
+    <!--SECCION S E R V I C I O S -->
+     <section id="servicios">
+        <h3 class="titulo-seccion">NUESTROS SERVICIOS</h3>
+        <div class="fila">                                                 
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-rings-wedding"></i></i></span>
+                <h4>Matrimonios</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Cenas</li>
+                    <li>Logistica</li>
+                    <li>Decoracion</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure cupiditate quos incidunt quam esse exercitationem totam</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-cake-candles"></i></i></span>
+                <h4>Cumpleanos</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Entretenimiento</li>
+                    <li>Decoracion</li>
+                    <li>Servico</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure cupiditate quos incidunt quam esse exercitationem totam</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-flag"></i></span>
+                <h4>Eventos Estatales</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Alcadias</li>
+                    <li>Gobernaciones</li>
+                    <li>Logistica</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure cupiditate quos incidunt quam esse exercitationem totam</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-regular fa-children"></i></span>
+                <h4>Fiestas Infantiles</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Entretenimiento</li>
+                    <li>Decoracion</li>
+                    <li>Servicio</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure cupiditate quos incidunt quam esse exercitationem totam</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-regular fa-chess-queen"></i></span>
+                <h4>Quince anos</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Logistica</li>
+                    <li>Servicio</li>
+                    <li>Decoracion</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure cupiditate quos incidunt quam esse exercitationem totam</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-light fa-person-military-pointing"></i></span>
+                <h4>Logistica</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Personal Calificado</li>
+                    <li>Fotografos</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure cupiditate quos incidunt quam esse exercitationem totam</p>
+            </div>
+        </div>
+    </section>
+    <!--SECCION E V E N T O S -->
+    <section id="eventos">
+        <h3 class="titulo-seccion">NUESTROS EVENTOS</h3>
+        <div class="fila">
+            
+            <div class="event0s">
+                <div class="overlay"></div>
+                <img src="/img/fote2.jpeg" alt="">
+                <div class="info">
+                    <h4>descripcion del proyecto </h4>
+                    <p>Evento Mapiripan Meta</p>
+                </div>
+            </div>
+            <div class="event0s">
+                <div class="overlay"></div>
+                <img src="/img/foto4.jpeg" alt="">
+                <div class="info">
+                    <h4>descripcion del proyecto</h4>
+                    <p>Evento Mapiripan Meta</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactanos Ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder=" Nombre Completo" class="input-mitad">
+                    <input type="email" placeholder=" Direccion de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder=" Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="  Tu Mensaje ..." class="input-full"></textarea>
+                </div>
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+        
+    </section>
+      <!-- SECCION F O O T E R -->
+      <footer>
+        <p>todos los derechos reservados LECA - 2022</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-youtube-square"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </footer>
+    <script src="/script.js"></script>
+
+
+
+</body      
+</html>
